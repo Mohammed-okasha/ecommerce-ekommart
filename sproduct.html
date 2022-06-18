@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <!--============= Css Cata File =============-->
+    <link rel="stylesheet" href="main.css">
+    <!--============= Normalize Css File =============-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--============= Font Awesonme Link =============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--============ Link Swiper's CSS =============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+<!--====================================================================-->
+        <!-- Start Header -->
+        <header id="header">
+            <div class="container">
+                <!-- Logo ----->
+                <a href="index.html" class="logo">
+                    <span>Ekommart</span>
+                </a>
+
+                <!-- Navbar ------->
+                <div class="navbar">
+
+                    <nav class="nav-menu">
+                        <!-- Nav links ---->
+                        <ul class="nav-links">
+                            <ul class="nav-links">
+                                <li>
+                                    <a href="index.html">home</a>
+                                </li>
+                                <li><a href="shopping.html">shop</a></li>
+                                <li><a href="blog.html" >blog</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Btn group ------>
+                    <div class="btn-group">
+                    <!-- Search Btn ------->
+                    <button class="btn search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                    <!-- Shopping Cart Btn -->
+                    <button class="btn cart-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                    </button>
+
+                    <!-- Toggle Navbar Btn ----->
+                    <button class="btn toggle-btn">
+                        <span class="toggle-icon"></span>
+                    </button>
+                    </div>
+
+                </div>
+
+                <!-- Serach Form -------->
+                <form class="search-form">
+                    <input type="search" name="search" maxlength="25"
+                        placeholder="Search" class="search" required>
+
+                        <button class="btn search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                </form>
+            </div>
+        </header>
+        <!-- End Header -->
+<!--====================================================================-->
+        <!-- Start Product Details -->
+        <section id="pro-details">
+            <div class="container">
+
+                <!-- Row -------->
+                <div class="row">
+                    <!-- Col 1 ------->
+                    <div class="col">
+
+                        <!-- Product Display -->
+                        <div class="pro-display">
+                            <img src="img/t-shirt-1.png" alt="t-shirt-1"
+                            style="width: 70%;"
+                            id="main-img">
+                        </div>
+
+                        <!-- Product image -->
+                        <div class="pro-image">
+                            <!-- img 1 -->
+                            <div class="img">
+                                <img src="img/t-shirt-1.png" alt="t-shirt-1" class="img-fluid">
+                            </div>
+
+                            <!-- img 2 -->
+                            <div class="img">
+                                <img src="img/t-shirt-10.png" alt="t-shirt-10" class="img-fluid">
+                            </div>
+
+                            <!-- img 3 -->
+                            <div class="img">
+                                <img src="img/t-shirt-3.png" alt="t-shirt-3" class="img-fluid">
+                            </div>
+
+                            <!-- img 4 -->
+                            <div class="img">
+                                <img src="img/t-shirt-9.png" alt="t-shirt-9" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Col 2 ------->
+                    <div class="col">
+                        <!-- Title -->
+                        <h2 class="pro-title">men's fashion t-shirt</h2>
+
+                        <!-- Product Price -->
+                        <strong class="price">$80.00</strong>
+
+                        <!-- Select Size -->
+                        <div class="select-size">
+                            <select>
+                                <option selected>Select Size</option>
+                                <option value="Xl" class="size">X Large</option>
+                                <option value="L" class="size">Large</option>
+                                <option value="M" class="size">Medium</option>
+                                <option value="M" class="size">Small</option>
+                            </select>
+                        </div>
+
+                        <!-- Quantity And Add To Cart Btn -->
+                        <div class="btns-group">
+                            <input type="number" class="quantity" value="1">
+                            <!-- Add To Cart Btn -->
+                            <button class="btn card-btn">add to cart</button>
+                        </div>
+
+                        <!-- Description ----------->
+                        <div class="descripe">
+                            <h3 class="des-title">product details</h2>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Sint delectus unde quo, culpa, cum expedita consequuntur,
+                                commodi libero doloribus mollitia molestias qui magnam
+                                quis dicta quaerat eligendi? Pariatur molestias aliquam,
+                                nulla id tenetur aperiam laborum
+                                voluptas officia iste perferendis at.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Product Details -->
+<!--====================================================================-->
+        <!-- Start Shop section -->
+        <section id="shop">
+            <div class="container">
+                <!-- Heading ------>
+                <div class="heading">
+                    <h2 class="title">feature products</h2>
+                    <p class="text text-muted">summer colletion new modren design</p>
+                </div>
+
+                    <!-- Row -------->
+                    <div class="row">
+
+                        <!-- Card 1 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-1.png" alt="t-shirt-1" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-1</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Card Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-2.png" alt="t-shirt-2" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-2</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$60</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-3.png" alt="t-shirt-3" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-3</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-4.png" style="object-fit: contain;"
+                                alt="t-shirt-4" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-4</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-10.png" alt="t-shirt-10" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-5</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-14.png" alt="t-shirt-14" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-6</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 7 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-7.png" style="object-fit: contain;"
+                                    alt="t-shirt-7" class="img-fluid">
+                                    <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">t-shirt-7</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 8 ------>
+                        <div class="card"
+                        onclick = "window.location.href = 'sproduct.html'">
+                            <!-- Card Img ---->
+                            <div class="card-img">
+                                <img src="img/t-shirt-9.png" alt="t-shirt-9" class="img-fluid">
+                                <!-- Preview Btn -->
+                                <button class="btn preview">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+
+                            <!-- Card Body ------>
+                            <div class="card-body">
+                                <span class="text-muted">adidas</span>
+                                <h4 class="card-title">trouser</h4>
+
+                                <!-- Star Icon ------->
+                                <div class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <!-- Cart Price ------>
+                                <div class="card-price">
+                                    <strong class="price">$78</strong>
+                                    <!-- Add To Card Btn -->
+                                    <butotn class="btn card-btn" type="button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </butotn>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+        </section>
+        <!-- End Shop section -->
+<!--====================================================================-->
+        <!-- Start newsletter Section -->
+        <div class="newsletter">
+            <div class="container">
+
+                <!-- Row -------->
+                <div class="row">
+
+                    <!-- Newsletter Title -->
+                    <div class="newsletter-title">
+                        <h5 class="h3">sign up for news letter</h5>
+                        <p class="text-muted">
+                            get e-mail updates about our lates shop and
+                            <span>special offres</span>
+                        </p>
+                    </div>
+
+                    <!-- newsletter Form -->
+                    <form action="">
+                        <!-- input Group ----->
+                        <div class="input-group">
+                            <input type="email" class="form-control"
+                            name="email" placeholder="Your Email Address" required>
+                            <!-- Sign Up -->
+                            <button class="btn sign-up" type="submit">sign up</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- End newsletter Section -->
+<!--====================================================================-->
+        <!-- Start Footer -->
+        <footer id="footer">
+            <div class="container">
+
+                <!-- Row =========-->
+                <div class="row">
+
+                    <!-- Col 1 -->
+                    <div class="col">
+                        <!-- Logo ----->
+                        <a href="index.html" class="logo">
+                            <span>Ekommart</span>
+                        </a>
+                        <!-- Heading -->
+                        <h6 class="h5">contact</h6>
+
+                        <!-- Contact -->
+                        <div class="contact">
+                            <!-- Box 1 -->
+                            <div class="box">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="text-muted">cairo-egypt,13z</span>
+                            </div>
+                            <!-- Box 2 -->
+                            <div class="box">
+                                <i class="fas fa-phone"></i>
+                                <span class="text-muted">01151146084</span>
+                            </div>
+                            <!-- Box 3 -->
+                            <div class="box">
+                                <i class="fas fa-envelope"></i>
+                                <span class="text-muted">mokasha737@gmail.com</span>
+                            </div>
+                            <!-- Box 4 -->
+                            <div class="box">
+                                <i class="fas fa-clock"></i>
+                                <span class="text-muted">9:00am - 12:00pm</span>
+                            </div>
+                        </div>
+
+                        <!-- Social-link ======-->
+                        <div class="social-link">
+                            <!-- Heading -->
+                            <h6 class="h5">follow us</h6>
+                            <!-- Icon -------->
+                            <div class="icon">
+                                <!-- linkedin ------>
+                                <a href="#" class="link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <!-- Githup ------>
+                                <a href="#" class="link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <!-- Facebook ------>
+                                <a href="#" class="link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <!-- instagram ------>
+                                <a href="#" class="link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Col 2 -->
+                    <div class="col">
+                        <!-- Heading -->
+                        <h6 class="h5">about</h6>
+                        <!-- Links ---------->
+                        <ul class="links">
+                            <li>
+                                <a href="#" class="link-item">about us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">delivrey information</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">terms & condittions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 3 -->
+                    <div class="col">
+                        <!-- Heading -->
+                        <h6 class="h5">my account</h6>
+                        <!-- Links ---------->
+                        <ul class="links">
+                            <li>
+                                <a href="#" class="link-item">sign up</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">view cart</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">my wishlist</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">track my order</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-item">help</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 4 -->
+                    <div class="col">
+                        <!-- Heading -->
+                        <h6 class="h5">install app</h6>
+                        <span class="text-muted">from app store or google play</span>
+                        <!-- App Link -->
+                        <div class="app-link">
+                            <!-- Apple Store Link -->
+                            <a href="#" class="link">
+                                <img src="img/app-store.png" alt="apple-store">
+                            </a>
+                            <!-- Google Play Link -->
+                            <a href="#" class="link">
+                                <img src="img/play-store.png" alt="play-store">
+                            </a>
+                        </div>
+                        <span class="text-muted">secured payment gateways</span>
+                        <!-- Payments Links -------->
+                        <div class="payments">
+                            <!-- paypal Logo ------>
+                            <a href="#" class="logo">
+                                <img src="img/logo-paypal.png" alt="logo-paypal">
+                            </a>
+                            <!-- mastercard Logo ------>
+                            <a href="#" class="logo">
+                                <img src="img/logo(2).png" alt="mastercard-logo">
+                            </a>
+                            <!-- currs Logo ------>
+                            <a href="#" class="logo">
+                                <img src="img/logo(3).png" alt="currs-logo">
+                            </a>
+                            <!-- Visa Logo ------>
+                            <a href="#" class="logo">
+                                <img src="img/logo(4).png" alt="visa-logo">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Created By ------>
+                <div class="created-by">
+                    created by <span>mohammed sherif</span>
+                    &copy; 2022
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+<!--====================================================================-->
+    <!--============== js Cata File ==============-->
+    <script src="main.js"></script>
+
+    <!--
+    [Product Details Page (img Gallery)]
+    - Access To Items
+    -->
+    <script>
+
+        let mainImg = document.getElementById("main-img");
+        const productImgs = document.getElementsByClassName("img-fluid");
+
+        let imgSrc;
+
+        // Loop For All productImgs
+        for (let i = 0; i < productImgs.length; i++) {
+            let smallImg = productImgs[i];
+
+            smallImg.addEventListener('click', (e) => {
+                // Cureent Img(Src)
+                imgSrc = e.target.src;
+
+                /*
+                When Click To Current Img > mainImg.src = imgSrc
+                */
+
+                if(mainImg.src != null) {
+                    mainImg.src = imgSrc;
+                };
+
+                // Set Cureent Img(Src) To localStorage
+                localStorage.setItem("main-img-src", imgSrc);
+            });
+        };
+
+        function getItem() {
+            let get_Item = localStorage.getItem("main-img-src");
+
+            // Check get_Item != null ?
+            if (get_Item != null) {
+                mainImg.src = get_Item;
+            }
+        };
+
+        getItem();
+
+    </script>
+</body>
+</html>
